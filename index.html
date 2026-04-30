@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship TDD - Dery Supriyadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BATTLESHIP</h1>
+        <!-- Elemen status untuk memberi tahu giliran siapa atau siapa yang menang -->
+        <h2 id="status-message">Menunggu Permainan Dimulai...</h2>
+    </header>
+
+    <main id="game-container">
+        <!-- Area Papan Pemain -->
+        <div class="board-outer-container">
+            <h3>Papan Kamu</h3>
+            <div id="player-board" class="board"></div>
+            <div class="legend">
+                <span class="dot ship"></span> Kapal 
+                <span class="dot hit"></span> Hit 
+                <span class="dot miss"></span> Miss
+            </div>
+        </div>
+
+        <!-- Area Papan Komputer -->
+        <div class="board-outer-container">
+            <h3>Papan Musuh</h3>
+            <div id="computer-board" class="board"></div>
+            <p class="instruction">Klik pada papan musuh untuk menyerang!</p>
+        </div>
+    </main>
+
+    <!-- Tombol Reset (Opsional untuk pengembangan selanjutnya) -->
+    <footer>
+        <button id="restart-btn" onclick="window.location.reload()">Main Lagi</button>
+    </footer>
+
+    <!-- Script Utama -->
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>

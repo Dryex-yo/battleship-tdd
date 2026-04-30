@@ -1,5 +1,5 @@
-import Player from '../player';
-import Gameboard from '../gameboard';
+import Player from '../modules/player';
+import Gameboard from '../modules/gameboard';
 
 describe('Player', () => {
   test('setiap player memiliki gameboard sendiri', () => {

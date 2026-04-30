@@ -15,6 +15,7 @@ Proyek ini adalah implementasi game klasik **Battleship** yang dibangun mengguna
 - **Testing Framework**: [Jest](https://jestjs.io/)
 - **Compiler**: [Babel](https://babeljs.io/) (untuk dukungan ESM di Jest)
 - **Environment**: Node.js
+- **Styling**: CSS3 (Grid & Flexbox)
 
 ## 🧪 Hasil Pengujian (Current Status)
 
@@ -48,6 +49,12 @@ Time:        9.193 s
     '''text
     Bash
     npm test
+    ```
+4. Clone Repositori:
+    '''text
+    Bash
+    git clone <https://github.com/Dryex-yo/battleship-tdd>
+    cd battleship-tdd
     ```
 
 ## 📁 Struktur Proyek

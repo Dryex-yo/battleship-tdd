@@ -1,4 +1,4 @@
-import Ship from '../ship';
+import Ship from '../modules/ship';
 
 test('isSunk() returns false initially', () => {
   const ship = new Ship(3);

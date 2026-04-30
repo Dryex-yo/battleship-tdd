@@ -1,19 +1,26 @@
 {
   "name": "battleship-tdd",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Implementasi game Battleship menggunakan prinsip Test Driven Development (TDD)",
+  "main": "src/index.js",
   "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "battleship",
+    "tdd",
+    "jest",
+    "javascript"
+  ],
+  "author": "Dery Supriyadi",
+  "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.2",
-    "babel-jest": "^30.3.0",
-    "jest": "^30.3.0"
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
   }
 }

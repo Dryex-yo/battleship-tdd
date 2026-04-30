@@ -1,4 +1,4 @@
-import Gameboard from '../gameboard';
+import Gameboard from '../modules/gameboard';
 
 describe('Gameboard', () => {
   let board;
